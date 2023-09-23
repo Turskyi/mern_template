@@ -13,7 +13,7 @@ interface NavBarProps {
 
 const NavBar = ({ loggedInUser, onSignUpClicked, onLoginClicked, onLogoutSuccessful }: NavBarProps) => {
     return (
-        <Navbar bg='primary' variant='dark' expand='sm' sticky='top'>
+        <Navbar bg='dark' variant='dark' expand='sm' sticky='top'>
             <Container>
                 <Navbar.Brand as={Link} to='/'>
                     Notes App
