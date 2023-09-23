@@ -1,0 +1,15 @@
+tap "dart-lang/dart"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "fastlane"
+brew "git", link: false
+brew "gradle"
+brew "nghttp2"
+brew "node", link: false
+brew "openssl@1.1"
+brew "ruby"
+brew "ruby@2.7"
+brew "dart-lang/dart/dart"
+cask "android-platform-tools"
+cask "android-sdk"
