@@ -1,4 +1,4 @@
-import { RegisterOptions, UseFormRegisterReturn, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { User } from "../models/user";
 import { LoginCredentials } from "../network/notes_api";
 import * as NotesApi from '../network/notes_api';
@@ -49,7 +49,7 @@ const LoginModal = ({ onDismiss, onLoginSuccessful }: LoginModalProps) => {
                 }
                 <Form onSubmit={handleSubmit(onSubmit)}>
                     <TextInputField
-                        name='usernam'
+                        name='username'
                         label='Username'
                         type='text'
                         placeholder='Username'
